@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+.background-visit{
+    background-image: url("/img/DSCF0338.JPG");
+    background-position: center left;
+}
+
+.background-access{
+    background-image: url("/img/IMG-0553.jpg");
+    background-position: bottom left;
+}
+
+.background-karate{
+    background-image: url("/img/IMG-0558.jpg");
+    background-position: center right;
+}
+
+.background-philosophy{
+    background-image: url("/img/163195190_741638543209360_143490358707738446_n.jpg");
+}
+
+.background-about-keiyu{
+    background-image: url("/img/IMG-0550.jpg");
+    background-position: bottom left;
+}

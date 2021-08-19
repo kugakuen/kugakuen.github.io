@@ -1,0 +1,200 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');  /*Google Fonts Sans*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Noto+Serif+JP&display=swap'); /*Google Fonts Serif*/
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+
+/* p 一行の高さ50px 上下のmargin 50px */
+p{
+	margin: 5rem 3rem;
+
+	font-size: 2rem;
+	line-height: 5rem;
+}
+
+
+/* フォントをセリフに設定 */
+.font-serif{
+    font-family: 'Noto Serif JP', serif;
+}
+
+/* ボックススタイル基本設定 */
+.cn-block{
+    display: block;
+
+    width: 100%;
+    margin: 5rem 0;
+}
+
+/* ヘッダー設定 */
+.header{
+    display: block;
+
+    width: 100%;
+    height: 100vh;
+
+    background-color: #fff;
+    background-image: url("/img/header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.header-bar{
+    width: 100%;
+    height: 9rem;
+    background-color: #fff;
+}
+
+.header-title{
+    display: block;
+	margin-top: 70vh;
+
+    text-align: center;
+    font-size: 4rem;
+
+    color: #fff;
+}
+
+.main{
+    padding-bottom: 2rem;
+}
+
+.cn-button-1{
+	display: block;
+	float: left;
+
+	cursor: pointer;
+
+
+	height: 8rem;
+	width: 40%;
+
+	margin: 3rem 5%;
+
+	font-size: 2rem;
+
+	color: #fff;
+	box-shadow: 0 0 3rem #ddd;
+    background-color: #fff;
+	transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+}
+
+.cn-button-1 a{
+   height: 8rem; 
+}
+
+.cn-button-1:hover{
+    background-color: #fffff0;
+}
+
+.cn-button-1-text{
+	display: flex;
+	float: left;
+	width: 80%;
+	height: 100%;
+
+
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: #333;
+}
+
+.cn-button-1-arrow{
+	display: flex;
+
+	float: left;
+	width: 20%;
+	height: 100%;
+
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+    color: #fff;
+
+	background-color: #888;
+	transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+}
+
+.cn-button-1:hover .cn-button-1-arrow{
+	background-color: #f3981d;
+
+}
+
+.img-cn{
+    width: 30%;
+    height: auto;
+
+    float: left;
+
+    margin: 2rem 1.6666%;
+}
+
+.img-cn img{
+    width: 100%;
+    height: auto;
+}
+
+.slider{
+    display: block;
+    width: 90%;
+    margin: 30rem auto 0;
+}
+
+.slider img{
+    width: 100%;
+}
+
+.slick-next:before, .slick-prev:before{
+    color: #f3981d;
+    font-weight: bold;
+}
+
+.slick-next:before{
+    content: '\3E';
+}
+
+.slick-prev:before{
+    content: '\3C';
+}
+
+@media(max-width: 768px){
+    .cn-button-1{
+        font-size: 1.6rem;
+    }
+
+    .cn-button-1-arrow{
+        background-color: #f3981d;
+    }
+}
+
+@media(max-width: 889px){
+    .cn-button-1{
+    	width: 90%;
+        margin: 1rem 5%;
+    }
+}
+
+@media(max-width: 1189px){
+    h1{
+        font-size: 3rem;
+    }
+
+    h2{
+        font-size: 1.6rem;
+    }
+
+    p{
+        font-size: 1.6rem;
+        line-height: 4rem;
+
+        margin: 3rem 3rem 0;
+    }
+}

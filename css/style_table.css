@@ -1,0 +1,44 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');  /*Google Fonts Sans*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Noto+Serif+JP&display=swap'); /*Google Fonts Serif*/
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+
+table{
+    width: 50%;
+    margin: 5rem auto;
+
+    font-size: 1.6rem;
+
+    border: none;
+    border-collapse: collapse;
+
+    font-family: 'Noto Serif JP';
+}
+
+tr{
+    height: 5rem;
+}
+
+tr:nth-of-type(2n){
+    background-color: #fff;
+}
+
+tr:nth-of-type(2n-1){
+    background-color: #ffe9a9;
+}
+
+th{
+    width: 30%;
+}
+
+td{
+    width: 70%;
+    line-height: 4rem;
+}
+
+@media(max-width: 1190px){
+    table{
+        width: 90%;
+        font-size: 1.4rem;
+    }
+}
