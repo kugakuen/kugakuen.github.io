@@ -18,9 +18,9 @@ h3{
 	font-size: 2rem;
 	line-height: 5rem;
 
-    color: #ee7800;
+    color: #2e8b57;
 
-    border-bottom: #f3981d 0.2rem solid;
+    border-bottom: #3cb371 0.2rem solid;
 
     text-align: left; 
 }
@@ -97,7 +97,7 @@ a{
 }
 
 .cn-button-1:hover .cn-button-1-arrow{
-	background-color: #f3981d;
+	background-color: #3cb371;
 
 }
 
@@ -127,15 +127,13 @@ a{
 }
 
 .breadcrumb-list .current{
-    color: #ee7800;
+    color: #2e8b57;
 }
 
-/* フォントをセリフに設定 */
 .font-serif{
     font-family: 'Noto Serif JP', serif;
 }
 
-/* ボックススタイル基本設定 */
 .cn-block{
     display: block;
 
@@ -143,7 +141,6 @@ a{
     margin: 5rem 0;
 }
 
-/* ヘッダー設定 */
 .header{
     display: flex;
     flex-direction: colum;
@@ -231,7 +228,7 @@ a{
 
     .cn-button-1-arrow{
         height: 6rem;
-        background-color: #f3981d;
+        background-color: #3cb371;
     }
 
 }

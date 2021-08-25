@@ -3,21 +3,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Noto+Serif+JP&display=swap'); /*Google Fonts Serif*/
 @import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
 
-/* p 一行の高さ50px 上下のmargin 50px */
 p{
-	margin: 5rem 3rem;
+    margin: 5rem 3rem;
 
-	font-size: 2rem;
-	line-height: 5rem;
+    font-size: 2rem;
+    line-height: 5rem;
 }
 
 
-/* フォントをセリフに設定 */
 .font-serif{
     font-family: 'Noto Serif JP', serif;
 }
 
-/* ボックススタイル基本設定 */
 .cn-block{
     display: block;
 
@@ -25,7 +22,6 @@ p{
     margin: 5rem 0;
 }
 
-/* ヘッダー設定 */
 .header{
     display: block;
 
@@ -47,7 +43,7 @@ p{
 
 .header-title{
     display: block;
-	margin-top: 70vh;
+    margin-top: 70vh;
 
     text-align: center;
     font-size: 4rem;
@@ -60,26 +56,26 @@ p{
 }
 
 .cn-button-1{
-	display: block;
-	float: left;
+    display: block;
+    float: left;
 
-	cursor: pointer;
+    cursor: pointer;
 
 
-	height: 8rem;
-	width: 40%;
+    height: 8rem;
+    width: 40%;
 
-	margin: 3rem 5%;
+    margin: 3rem 5%;
 
-	font-size: 2rem;
+    font-size: 2rem;
 
-	color: #fff;
-	box-shadow: 0 0 3rem #ddd;
+    color: #fff;
+    box-shadow: 0 0 3rem #ddd;
     background-color: #fff;
-	transition: all 0.3s ease-in-out;
-	-webkit-transition: all 0.3s ease-in-out;
-	-moz-transition: all 0.3s ease-in-out;
-	-ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
 }
 
 .cn-button-1 a{
@@ -87,44 +83,44 @@ p{
 }
 
 .cn-button-1:hover{
-    background-color: #fffff0;
+    background-color: #ffffff;
 }
 
 .cn-button-1-text{
-	display: flex;
-	float: left;
-	width: 80%;
-	height: 100%;
+    display: flex;
+    float: left;
+    width: 80%;
+    height: 100%;
 
 
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	color: #333;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #333;
 }
 
 .cn-button-1-arrow{
-	display: flex;
+    display: flex;
 
-	float: left;
-	width: 20%;
-	height: 100%;
+    float: left;
+    width: 20%;
+    height: 100%;
 
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
     color: #fff;
 
-	background-color: #888;
-	transition: all 0.3s ease-in-out;
-	-webkit-transition: all 0.3s ease-in-out;
-	-moz-transition: all 0.3s ease-in-out;
-	-ms-transition: all 0.3s ease-in-out;
+    background-color: #888;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
 }
 
 .cn-button-1:hover .cn-button-1-arrow{
-	background-color: #f3981d;
+    background-color: #3cb371;
 
 }
 
@@ -153,7 +149,7 @@ p{
 }
 
 .slick-next:before, .slick-prev:before{
-    color: #f3981d;
+    color: #3cb371;
     font-weight: bold;
 }
 
@@ -171,7 +167,7 @@ p{
     }
 
     .cn-button-1-arrow{
-        background-color: #f3981d;
+        background-color: #3cb371;
     }
 }
 

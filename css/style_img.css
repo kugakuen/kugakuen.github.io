@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 .background-visit{
-    background-image: url("/img/DSCF0338.JPG");
+    background-image: url("/img/163963002_455063782278198_6610680263327471021_n.jpg");
     background-position: center left;
 }
 
@@ -22,4 +22,18 @@
 .background-about-keiyu{
     background-image: url("/img/IMG-0550.jpg");
     background-position: bottom left;
+}
+
+.background-staff{
+    background-image: url("/img/162459786_1918071241682061_881307422815826740_n.jpg");
+    background-position: top right;
+}
+
+.background-support{
+    background-image: url("/img/163963002_455063782278198_6610680263327471021_n.jpg");
+}
+
+.background-program{
+    background-image: url("/img/DSCF0092.JPG");
+    background-position: center left;
 }
