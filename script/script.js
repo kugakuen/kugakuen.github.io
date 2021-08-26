@@ -25,28 +25,38 @@ $(function () {
 
 
 
+document.addEventListener('touchmove', disableScroll, { passive: false });
+
+
 (function ($) {
     var $nav = $('#navArea');
     var $btn = $('.toggle_btn');
     var $mask = $('#mask');
-    var $header_list = $('.header_list');
+    var $scroll = $('.scroll_ctrl');
     var open = 'open'; // class
+    var scroll_lock = 'scroll_lock'; //class
     // menu open close
     $btn.on('click', function () {
         if (!$nav.hasClass(open)) {
             $nav.addClass(open);
+            $scroll.addClass(scroll_lock);
+            document.addEventListener('touchmove', disableScroll, { passive: false });
         } else {
             $nav.removeClass(open);
+            $scroll.removeClass(scroll_lock);
+            document.removeEventListener('touchmove', disableScroll, { passive: false });
         }
-    });
-    $header_list.on('click', function () {
-        $nav.removeClass(open);
     });
     // mask close
     $mask.on('click', function () {
         $nav.removeClass(open);
+        $scroll.removeClass(scroll_lock);
     });
 })(jQuery);
+
+function disableScroll(event) {
+    event.preventDefault();
+}
 
 
 
